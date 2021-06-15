@@ -167,5 +167,5 @@ code-style의 경우 C와 C++에 대해 별도의 규칙과 확인 도구들이 
 
 ![](https://lh4.googleusercontent.com/6NPQVjhxTz5ScaPPikg0ZqCoiVMYjL1Td-kc7OJ6u7jVNez2INz6a3ZfZU4yhw-SHSnSyWacay7Yi1Ttjr5IjJSvVxxSrNbBvG7OS3-j8yJXDDw6Smh9qhjtuqrqMsukZb8ybrI5)
 
-참고로 코드 머지 후 QA 시스템에 크게 영향을 주는 경우 QA 팀에서 해당 머지된 commit을 revert 할 수 있습니다. 자세한 내용은 Workflow after code merging의 [테스트 실패 \(regression\) 발생 시 절차 가이드](../workflow-after-code-merging-1/regression.md)를 참고합니다.
+참고로 코드 머지 후 QA 시스템에 크게 영향을 주는 경우 QA 팀에서 해당 머지된 commit을 revert 할 수 있습니다. 자세한 내용은 Workflow after code merging의 [테스트 실패 \(regression\) 발생 시 절차 가이드](../after-code-merging/regression.md)를 참고합니다.
 

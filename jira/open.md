@@ -48,7 +48,7 @@
       <td style="text-align:left">
         <p>&#xC774;&#xC288;&#xC758; &#xC131;&#xACA9;&#xC5D0; &#xB9DE;&#xB294; &#xD0C0;&#xC785;&#xC744;
           &#xC120;&#xD0DD;&#xD569;&#xB2C8;&#xB2E4;.</p>
-        <p>&#xC790;&#xC138;&#xD55C; &#xB0B4;&#xC6A9;&#xC740;&#x201C;<a href="jira-open.md#issue-types">Issue Type</a>&#x201D;
+        <p>&#xC790;&#xC138;&#xD55C; &#xB0B4;&#xC6A9;&#xC740;&#x201C;<a href="open.md#issue-types">Issue Type</a>&#x201D;
           &#xC139;&#xC158;&#xC744; &#xCC38;&#xACE0;&#xD569;&#xB2C8;&#xB2E4;.</p>
       </td>
     </tr>
@@ -69,7 +69,7 @@
       <td style="text-align:left">
         <p>&#xBAA8;&#xB4C8; &#xB2E8;&#xC704; &#xB610;&#xB294; &#xD504;&#xB85C;&#xC81D;&#xD2B8;
           &#xB2E8;&#xC704;&#xC758; &#xBC94;&#xC8FC;&#xB97C; &#xC9C0;&#xC815;&#xD569;&#xB2C8;&#xB2E4;.</p>
-        <p>&#xC790;&#xC138;&#xD55C; &#xB0B4;&#xC6A9;&#xC740; &#x201C;<a href="jira-open.md#component">Component</a>&#x201D;
+        <p>&#xC790;&#xC138;&#xD55C; &#xB0B4;&#xC6A9;&#xC740; &#x201C;<a href="open.md#component">Component</a>&#x201D;
           &#xC139;&#xC158;&#xC5D0;&#xC11C; &#xC124;&#xBA85;&#xD569;&#xB2C8;&#xB2E4;.</p>
       </td>
     </tr>
@@ -296,7 +296,7 @@ CTE, TDE, JSON, Java SP등 여러 모듈에 영향을 주는 프로젝트인 경
 </table>
 
 * **Description:** 이슈 설명
-* **Test Build:** Repro, Actual Result와 동일한 현상을 보여주는 빌드 버전을 commit 번호까지 상세히 기입합니다. 예를 들어 다음과 같이 기입할 수 있습니다:  `CUBRID-11.0.0.0248-b53ae4a` JIRA 필드의 Affected version/s은 Major와 Minor 버전까지만 표시하는 반면, Patch와 Revision을 포함하여 실제로 버그가 발생한 구체적인 버전 명을 입력해야합니다. 버전명의 규칙은 [Release/Version](../release-1/release.md#version) 섹션을 참고합니다. 빌드한 OS의 버전도 함께 명시할 수 있습니다.
+* **Test Build:** Repro, Actual Result와 동일한 현상을 보여주는 빌드 버전을 commit 번호까지 상세히 기입합니다. 예를 들어 다음과 같이 기입할 수 있습니다:  `CUBRID-11.0.0.0248-b53ae4a` JIRA 필드의 Affected version/s은 Major와 Minor 버전까지만 표시하는 반면, Patch와 Revision을 포함하여 실제로 버그가 발생한 구체적인 버전 명을 입력해야합니다. 버전명의 규칙은 [Release/Version](../rel/release.md#version) 섹션을 참고합니다. 빌드한 OS의 버전도 함께 명시할 수 있습니다.
 * **Repro:** 버그를 재현하기 위한 절차를 입력합니다. 버그 재현에 대한 설명을 적기 보다는 환경 재현/스키마 생성/질의 실행/유틸리티 실행 등의 모든 절차를 복사-붙여넣기로 재현 할 수 있도록 작성해야합니다.
 * **Expected Result:** 기대 결과 \(고쳐져야 할 예상 결과\)
 * **Actual Result:** 현재 결과 \(문제가 있는 결과\)
