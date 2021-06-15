@@ -1,6 +1,8 @@
 # Communication Channel
 
-큐브리드의 기여자를 위한 커뮤니케이션 채널로 Reddit \(영문\)과 큐브리드 Q&A 게시판 \(국문\)이 있습니다. 큐브리드 Q&A는 대부분 일반 사용자를 중심으로 버그 리포트와 질문 위주로 사용하고 있습니다.
+The official communication channels for contributors of CUBRID are [Reddit](https://www.reddit.com/r/CUBRID/) \(English\) and [CUBRID Q&A board](https://www.cubrid.com/qna) \(Korean only\).
 
-그 외에 이메일, Stack Overflow 등의 수 많은 커뮤니케이션 채널으로 기여에 대한 질문이나 제안을 받을 수 있지만 공식적인 커뮤니케이션 채널 \(cubrid.com 또는 reddit\)에서 유도하여 이어가는 것이 중요합니다.
+In addition, you can also communicate with the CUBRID open source community via numerous communication channels such as email, Stack Overflow, Facebook. Twitter, Youtube. 
+
+However, communication via the official communication channel  \(Reddit for English, and Q&A bulletin board for Korean\) is strongly recommended.
 

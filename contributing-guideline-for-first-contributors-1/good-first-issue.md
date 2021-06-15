@@ -1,16 +1,18 @@
 # Good first issue
 
-큐브리드에서 기여는 다음의 활동을 통해 진행합니다.
+Contributions at CUBRID proceed through the following activities. 
 
-* 사전 커뮤니케이션: 기여자가 어떤 버그나 개선할 사항을 찾는 경우 프로젝트 메인테이너와 커뮤니티에 의견과 방법을 제안
-* 이슈 생성: 사전 커뮤니케이션을 통해 기여 내용과 방향에 대한 의견이 충분히 수렴되었고 기여하기 위한 합의에 도달했다면 이슈를 생성
-* Pull Request 생성: 이슈 해결의 산출물, 설계 디자인과 코드 리뷰 수행
+* Prior Communication: When contributors are looking for any bugs or improvements, suggestions are made to project maintainers and the community.
+* Issue Creation: An issue is created when opinions on the content and direction of contribution have been sufficiently collected through prior communication and an agreement to contribute has been reached.
+* Pull Request Generation: Issue resolution output, design and code review.
 
-**외부 기여를 받을 때 가장 중요한 목표는 외부 기여자의 활동을 끝까지 마치도록 유도하는 것입니다.** 그 중 기여의 시작인 커뮤니케이션이 가장 어렵고 귀찮은 단계입니다. 프로젝트 메인테이너에게 설득을 위해 테스트 자료, 간단한 설계 디자인, 코드 분석 등이 선행되어야 하기 때문입니다. 또 지금 큐브리드에 어떤 기능 개선이 필요한 지 직접 찾아내는 것도 쉽지 않습니다.
+**The most important goal of contribution is to encourage contributors to complete their activities.** However, communication, which is the beginning of contribution, is the most difficult and cumbersome step because test materials, simple design, and code analysis must be preceded to persuade the project maintainer. Also, it is not easy to find out what kind of improvement is needed for CUBRID in present.
 
-프로젝트 메인테이너와 코어 개발자가 어떤 기능에 대해 이미 진행을 합의했지만 리소스 부족으로 진행하지 못한 경우 이슈를 미리 만들어 두기도 합니다. 이러한 이슈를 활용하면 커뮤니케이션과 이슈 생성 단계를 생략하고 외부 기여자가 쉽게 시작해볼 수 있습니다.
+If the project maintainer and the core developer have already agreed on a feature to proceed, but cannot proceed due to lack of resources,  the _JIRA Issues_ may be created in advance. Contributors can easily start contributing through these JIRA Issues.
 
-특히 미리 만들어둔 이슈 중 비교적 기여 난이도가 쉽고 짧은 시간에 기여해볼 수 있는 이슈에 대해 **“Good First Issue” 이슈로 설정해두고 가이드한다면 기여자가 좀 더 쉽게 큐브리드에 기여를 시작할 수 있습니다.** 한 번 기여 프로세스를 경험하고 나면 그 다음엔 훨씬 쉽게 기여할 수 있을 것입니다.
+If the JIRA issue described above ****is set up as a **'Good First Issue'** issue, CUBRID can guide the issues that are relatively easy to start for contributors. and contributors can choose among the pre-created issues and can start contributing to CUBRID more quickly and easily.
 
-“Good First Issue”는 JIRA Issue label에 지정해두고 커스텀 필터로 만들어두고 가이드하면 좋습니다.
+Once a contributor has been through the contributing process, the contributor will be able to contribute more easily the next time.
+
+**'Good First Issue'** can be specified on the JIRA Issue label, and it is recommended to create a custom filter and guide.
 

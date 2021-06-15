@@ -1,33 +1,33 @@
 # Table of contents
 
 * [Overview](README.md)
-* [Preface](overview/README.md)
-  * [How to Read This Document](overview/undefined.md)
+* [Preface](preface/README.md)
+  * [How to Read This Document](preface/how-to-read.md)
 
-## Workflow with JIRA Issues <a id="workflow-with-jira-issues-1"></a>
+## Workflow with JIRA Issues <a id="jira-guide"></a>
 
-* [Introduction](workflow-with-jira-issues-1/intro.md)
-* [JIRA 이슈 등록 &lt;OPEN&gt;](workflow-with-jira-issues-1/jira-open.md)
-* [이슈 선별 \(Triage\) &lt;Confirmed&gt;](workflow-with-jira-issues-1/jira-confirmed.md)
-* [작업 진행  &lt;In Progress&gt;](workflow-with-jira-issues-1/jira-in-progress.md)
-* [작업 리뷰  &lt;Review In Progress, Reviewed&gt;](workflow-with-jira-issues-1/jira-reviewing.md)
-* [작업 완료  &lt;Resolved&gt;](workflow-with-jira-issues-1/jira-resolved.md)
-* [이슈 종료  &lt;Closed&gt;](workflow-with-jira-issues-1/jira-closed.md)
+* [Introduction](jira-guide/intro.md)
+* [&lt;OPEN&gt;: Register a JIRA issue](jira-guide/open.md)
+* [&lt;Confirmed&gt;: Issue Triage](jira-guide/confirmed.md)
+* [&lt;In Progress&gt;: Task in Progress](jira-guide/in-progress.md)
+* [&lt;Review In Progress, Reviewed&gt;: Task Review](jira-guide/reviewing.md)
+* [&lt;Resolved&gt;: Task Complete](jira-guide/resolved.md)
+* [&lt;Closed&gt;: Issue Termination](jira-guide/closed.md)
 
-## Workflow with Github <a id="workflow-with-github-1"></a>
+## Workflow with Github <a id="gh-guide"></a>
 
-* [Introduction](workflow-with-github-1/introduction.md)
-* [Git Workflow](workflow-with-github-1/git-workflow.md)
-* [Git 브랜치 모델](workflow-with-github-1/git-branch-model.md)
-* [Feature Branch](workflow-with-github-1/feature-branch.md)
-* [Pull Request, Code Review, Code Merge](workflow-with-github-1/pr-guide.md)
-* [Backport](workflow-with-github-1/backport.md)
+* [Introduction](gh-guide/git-intro.md)
+* [Git Workflow](gh-guide/git-workflow.md)
+* [Git Branch Model](gh-guide/git-branch-model.md)
+* [Feature Branch](gh-guide/git-feature-branch.md)
+* [Pull Request, Code Review, Code Merge](gh-guide/git-pr-guide.md)
+* [Backport](gh-guide/git-backport.md)
 
 ## Workflow after Code Merging <a id="workflow-after-code-merging-1"></a>
 
-* [QA 리포트 확인](workflow-after-code-merging-1/qa-report.md)
-* [테스트 실패 \(regression\) 발생 시 절차 가이드](workflow-after-code-merging-1/regression.md)
-* [매뉴얼 작성 가이드](workflow-after-code-merging-1/manual.md)
+* [Checking the QA Report](workflow-after-code-merging-1/qa-report.md)
+* [Procedure Guide in case of Test Failure \(Regression\)](workflow-after-code-merging-1/regression.md)
+* [Manual Creation Guide](workflow-after-code-merging-1/manual.md)
 
 ## Contributing Guideline for First Contributors <a id="contributing-guideline-for-first-contributors-1"></a>
 
@@ -35,7 +35,7 @@
 * [Good first issue](contributing-guideline-for-first-contributors-1/good-first-issue.md)
 * [Communication Channel](contributing-guideline-for-first-contributors-1/communication-channel.md)
 
-## Release <a id="release-1"></a>
+## Release <a id="rel"></a>
 
-* [Release](release-1/release.md)
+* [Release](rel/release.md)
 

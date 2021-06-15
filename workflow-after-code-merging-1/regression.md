@@ -1,16 +1,16 @@
-# 테스트 실패 \(regression\) 발생 시 절차 가이드
+# Procedure Guide in case of Test Failure \(Regression\)
 
-만약 QA팀에서 테스트 도구에서 검증 후 반영한 변경에 문제가 있어 QA 시스템에 크게 영향을 주는 경우 **QA팀에서 해당 변경의 commit에 대해 revert 하고 JIRA를 “CONFIRMED” 상태로 되돌릴 수 있습니다.** 이 때 개발자가 해당 이슈가 다시 triage가 필요하다고 판단하는 경우 “OPEN” 상태로 되돌릴 수 있습니다.
+If the QA team found a problem with the change merged after verification in the test tool, which greatly affects the QA system, **the QA team can revert the commit of the change and return the JIRA issue to the 'CONFIRMED' status**. At this point, if the developer decides that the issue needs a triage again, it can revert to the 'OPEN' status.
 
-QA 시스템에 영향을 주는 경우는 다음의 예시와 같은 문제를 즉시 해결하지 못하는 경우입니다.
+The failure of resolving the following problems immediately can affect the QA system:
 
-* 일부 또는 전체 시스템이 종료되는 경우 \(core 파일 생성\)
-* 시스템이 멈추는 경우 \(hang\)
-* 이슈와 디자인 문서에서 정의한 동작과 다른 경우
-* 너무 많은 테스트 케이스 실패가 발생하는 경우
-* 심각한 성능 저하가 발생하는 경우
+* If some or all of the systems are shut down \(a core file is created\)
+* If the system stops \(hang\)
+* If the behavior is different from that defined in the issue and design documents 
+* If too many test case failures occur
+* If significant performance degradation occurs
 
-위의 상황이 지속된 상태로 QA 시스템이 계속 운영되는 경우, 이를 기반으로 다른 기능을 개발할 때 결과의 신뢰성\(robustness\)에 영향이 있고 이후 문제 파악에 필요한 비용이 기하급수적으로 커지게 됩니다.
+If the QA system continues to operate while the above situation persists, then the QA system will be unreliable for the changes which are proceeding simultaneously; therefore, the robustness of the system would be broken**,** and the subsequent costs of identifying the problem will increase exponentially. 
 
-만약 JIRA가 “OPEN” 상태로 돌아간다면, JIRA Workflow에 따라 설계 디자인과 구현, 코드 리뷰 단계를 처음으로 다시 진행하는 것과 같습니다. 각 단계에서 재검토가 필요하다면, 피쳐 브랜치를 생성하여 진행하는 것을 권장합니다.
+Returning JIRA to the 'OPEN' status means going back to the design, implementation, and code review phase according to the JIRA Workflow. If reconfirmation is required at each step, it is recommended to proceed by creating a feature branch.
 

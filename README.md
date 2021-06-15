@@ -1,17 +1,17 @@
 # Overview
 
-CUBRID는 오픈소스 프로젝트로, 일반적인 오픈소스 프로젝트 개발 프로세스를 기반으로 운영합니다. CUBRID의 개발자들은 오픈소스 개발 프로젝트를 위한 협업 도구를 이용해  CUBRID라는 하나의 큰 프로젝트에 함께 기여하고 있습니다.
+CUBRID is an open source project that operates on the basis of a general open source project development process. The developers of CUBRID contribute to one big project called CUBRID by using collaboration tools for open source development projects.
 
-이 문서는 **협업 도구를 활용한 개발 워크 플로우를 설명하고 개발 문화에 대한 상호 합의를 위한 기본 원칙 수립 목적**으로 작성되었습니다. 이 문서를 기반으로 상호 간의 합의로 상황에 따라 유연하게 적용하고, 문서를 수정/발전 시켰으면 합니다.
+The purpose of this document is to **describe the development workflow using collaborative tools and to establish the basic principles for mutual consensus on a development culture.** This document can be flexibly applied  according to the situation and modify/develop through mutual agreement:
 
-* 공정과 도구보다 개인의 상호작용을
-* 포괄적인 문서보다 작동하는 소프트웨어를
-* 계획에 따르기보다 변화에 대응하기를
+* **Individuals and interactions** over processes and tools 
+* **Working software** over comprehensive documentation
+* **Responding to change** over following a plan
 
-CUBRID 개발 프로세스는 다음 두 도구를 기반으로 운영됩니다.
+The CUBRID development process is based on the following two tools:
 
-* Issue Tracking: JIRA \([jira.cubrid.org](http://jira.cubrid.org)\)
-* Code Repository and Code Review: Github \([github.com/CUBRID](http://github.com/CUBRID)\)
+* Issue Tracking: JIRA \([jira.cubrid.org](http://jira.cubrid.org/)\)
+* Code Repository and Code Review: GitHub \([github.com/CUBRID](http://github.com/CUBRID)\)
 
-CUBRID의 모든 프로젝트, 기능추가, 버그수정은 JIRA 이슈 생성으로부터 시작합니다. JIRA의 Issue workflow에 따라 문제를 정의, 분석하는 단계를 지나 설계 및 구현을 시작하게 됩니다. 설계 및 구현 단계에서는 Github에서 브랜치 생성, Pull Request, 코드 리뷰를 통해 검토/검증 과정을 거친 후 CUBRID에 코드를 반영합니다. 위 과정을 계속 반복하여 CUBRID를 계속 발전시킵니다.
+All CUBRID projects, feature additions, and bug fixes start with the creation of JIRA issues. In accordance with JIRA's Issue workflow, contributors will begin designing and implementing their problem after defining and investigating it. In the design and implementation stage, the code is merged in CUBRID after the review through branch creation, Pull Request, and code review on Github. CUBRID is developed sustainably by repeating the above process.
 
